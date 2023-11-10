@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+  }
+  
+body{
+    font-size: 100%;
+    background-color:whitesmoke;
+  }
+    
+      .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+       
+      }
+
+      .cabecalho-imagem {
+        height: 60px;
+      }
+
+      .cabecalho-menu {
+        display: flex;
+        gap: 25px;
+      }
+
+      .cabecalho-menu-item {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 100px;
+        font-size: 17px;
+        text-transform:uppercase;
+        color:black;
+      }
+      
+      nav a:hover {
+        color: rgb(197, 53, 151);  
+
+      }
+
+      .conteudo {
+        margin-bottom: 0.5px;
+        border-top: 0.4px solid rgb(197, 53, 151);
+      }
+      
+      .conteudo-principal {
+        display:flex;
+        flex-direction: row;
+        padding: 50px;
+        align-items: Left;
+        justify-content: space-around;
+      }
+
+      .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .conteudo-principal-escrito-titulo {
+        font-family: 'Righteous', 'cursive';
+        font-weight: 100;
+        font-size: 50px;
+        margin-left: 10;
+        color: rgb(197, 53, 151);
+      }
+
+      .conteudo-principal-escrito-subtitulo {
+        font-family: 'arial', sans-serif;
+        font-weight: 30px;
+        align-items:center;
+       font-size: 20px;
+        color: black;
+      }
+
+      .conteudo-principal-imagem {
+        height: 300px;
+        margin-top: 30px;
+        
+      }
+
+      .conteudo-secundario {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        color:rgb(197, 53, 151);
+      }
+
+      .conteudo-direitos-reservados{
+        text-align: center;
+        font-family: 'Sarala', sans-serif;
+        font-size: 12px;
+        color:black;
+        padding: 20px;
+      }

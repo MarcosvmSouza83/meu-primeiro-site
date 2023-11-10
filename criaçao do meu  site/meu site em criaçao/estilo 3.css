@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+  }
+  
+body{
+    font-size: 100%;
+    background-color:whitesmoke;
+  }
+    
+      .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+       
+      }
+
+      .cabecalho-imagem {
+        height: 60px;
+      }
+
+      .cabecalho-menu {
+        display: flex;
+        gap: 25px;
+      }
+
+      .cabecalho-menu-item {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 100px;
+        font-size: 17px;
+        text-transform:uppercase;
+        color:black
+      }
+      
+      nav a:hover {
+        color:rgb(197, 53, 151);
+
+      }
+
+      .conteudo {
+        margin-bottom: 0.5px;
+        border-top: 0.4px solid rgb(197, 53, 151);
+      }
+      
+      .conteudo-principal {
+        display:flex;
+        flex-direction: row;
+        padding: 30px;
+        align-items: Left;
+        justify-content: space-around;
+      }
+
+      .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .conteudo-principal-escrito-titulo {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        font-size: 40px;
+        margin-left: 10;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color:black;
+      }
+
+      .conteudo-principal-escrito-subtitulo {
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 30px;
+        align-items:center;
+        display: flex;
+        font-size: 20px;
+        line-height:0.4px;
+        color: rgb(197, 53, 151);
+      }
+
+
+      .conteudo-principal-imagem {
+        height: 300px;
+        margin-top: 30px;
+        
+      }
+
+      .conteudo-secundario {
+        font-family: 'Times New Roman', Times, serif;
+        align-items:center;
+        display: flex;
+        flex-direction:column-reverse;
+        font-size: 18px;
+        margin-right: 420px;
+        padding-bottom: 30px;
+        color:rgb(197, 53, 151);
+        
+      }
+
+      .whatsapp-link {
+        position: fixed;
+        width: 50px;
+        left: 530px;
+        bottom: 250px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+      }
+          
+      .fa-whatsapp {
+        margin-top: 10px;
+      }
+        
+      .rodape-imagem {
+        height: 10px;
+        display: block;
+        margin: 0 auto;
+     }
+      .conteudo-direitos-reservados{
+        text-align: center;
+        font-family: 'arial', sans-serif;
+        font-size: 8px;
+        color:black;
+        padding: 70px;
+      }
